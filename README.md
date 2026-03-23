@@ -14,7 +14,7 @@ O site my.solarview.com.br e a API api-v2.solarview.com.br sao protegidos por:
 - Iframe React em sandbox (allow-same-origin) que bloqueia acesso cross-origin direto
 
 
-## Solucao
+## Solução
 
 O login e feito com Playwright puro (Chrome visivel, maximizado) onde o usuario resolve
 o CAPTCHA manualmente. Os cookies sao salvos em cookies.json.
@@ -53,7 +53,7 @@ do engine do browser.
     dados.json      Gerado pelo SolarView.py. Resultado da ultima coleta.
 
 
-## Instalacao
+## Instalação
 
     pip install camoufox[geoip] beautifulsoup4 playwright
     python -m camoufox fetch
